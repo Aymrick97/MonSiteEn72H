@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://Aymrick97.github.io/monsiteEn72h/sitemap.xml

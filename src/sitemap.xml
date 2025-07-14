@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://Aymrick97.github.io/monsiteEn72h/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Ajoute ici les URLs de tes pages si tu en as d'autres -->
+  <!-- Exemple :
+  <url>
+    <loc>https://Aymrick97.github.io/monsiteEn72h/about</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  -->
+
+</urlset>
