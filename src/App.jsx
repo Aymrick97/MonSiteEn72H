@@ -385,9 +385,11 @@ const App = () => {
       {/* Offres détaillées incluant sites, e-commerce et applications */}
       <section
         style={{
-          maxWidth: 900,
+          maxWidth: "95vw",
+          width: "100%",
           margin: "50px auto",
           padding: "0 20px",
+          boxSizing: "border-box",
           textAlign: "center",
         }}
         aria-label="Détails des offres"
@@ -410,6 +412,9 @@ const App = () => {
             borderCollapse: "collapse",
             fontSize: "1.1rem",
             color: "#555",
+            tableLayout: "fixed",
+            wordWrap: "break-word",
+            overflowWrap: "break-word",
           }}
         >
           <thead>
@@ -486,6 +491,8 @@ const App = () => {
                       offre.startsWith("Application")
                         ? "#ff7e5f"
                         : "#555",
+                    wordWrap: "break-word",
+                    overflowWrap: "break-word",
                   }}
                 >
                   {offre}
@@ -495,6 +502,8 @@ const App = () => {
                     padding: "12px",
                     border: "1px solid #ff7e5f",
                     textAlign: "left",
+                    wordWrap: "break-word",
+                    overflowWrap: "break-word",
                   }}
                 >
                   {contenu}
@@ -505,6 +514,7 @@ const App = () => {
                     border: "1px solid #ff7e5f",
                     fontWeight: "700",
                     color: "#ff7e5f",
+                    whiteSpace: "nowrap", // pour éviter de casser les tarifs sur 2 lignes
                   }}
                 >
                   {tarif}
