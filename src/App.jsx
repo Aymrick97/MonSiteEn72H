@@ -514,7 +514,8 @@ const App = () => {
                     border: "1px solid #ff7e5f",
                     fontWeight: "700",
                     color: "#ff7e5f",
-                    whiteSpace: "nowrap", // pour éviter de casser les tarifs sur 2 lignes
+                    whiteSpace: "pre-wrap",
+                    // pour éviter de casser les tarifs sur 2 lignes
                   }}
                 >
                   {tarif}
