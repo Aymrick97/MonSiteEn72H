@@ -464,7 +464,12 @@ const App = () => {
                 offre: "Application Mobile (livrable en 4 à 6 semaines)",
                 contenu:
                   "Application iOS et Android sur mesure (catalogue, carte, réservation, paiement...)",
-                tarif: "à partir de\n 3500 €",
+                tarif: (
+                  <>
+                    à partir de
+                    <br />3 500 €
+                  </>
+                ),
               },
             ].map(({ offre, contenu, tarif }, i) => (
               <tr
